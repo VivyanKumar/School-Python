@@ -6,5 +6,7 @@ if a in range(x, y):
         print(a, "is even")
     else:
         print(a, "is odd")
+elif x > y:
+    print("The start of the range cannot be greater than the end of the range.")
 else:
     print('The number is not in the range.')
